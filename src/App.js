@@ -1,7 +1,9 @@
 import './App.css';
 import Header from "./components/header/Header"
 import Footer from "./components/footer/Footer"
-import Content from "./components/content/Content";
+import Content from "./components/content/Content"
+import MainPage from "./pages/mainPage/mainPage";
+
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
       <Header/>
       <Footer/>
       <Content/>
+        <MainPage/>
     </div>
   );
 }
